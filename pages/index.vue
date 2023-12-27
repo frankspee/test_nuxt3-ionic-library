@@ -10,6 +10,9 @@
       <IonButton @click="router.push('/about')">
         Goto About Page
       </IonButton>
+      <IonButton @click="router.push('/ionic-index')">
+        Goto Ionic Index Page
+      </IonButton>
     </IonContent>
   </IonPage>
 </template>
