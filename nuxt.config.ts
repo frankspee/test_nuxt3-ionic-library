@@ -7,6 +7,11 @@ export default defineNuxtConfig({
     '@ionic/core/css/typography.css',
     '@ionic/core/css/ionic.bundle.css',
   ],
-  devtools: { enabled: true },
-  // ssr: false,
+  devtools: { 
+    enabled: true
+  },
+  ssr: false,
+  typescript: {
+    shim: false,
+  },
 })
