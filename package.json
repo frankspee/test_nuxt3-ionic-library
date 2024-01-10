@@ -1,22 +1,23 @@
 {
   "name": "nuxt-app",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
     "ionic:build": "pnpm generate",
-    "ionic:serve": "pnpm dev"
+    "ionic:serve": "pnpm dev",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
   },
   "devDependencies": {
     "@capacitor/cli": "5.6.0",
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.2",
-    "vue": "^3.3.12",
-    "vue-router": "^4.2.5"
+    "@nuxt/devtools": "1.0.6",
+    "nuxt": "3.9.1",
+    "vue": "3.4.8",
+    "vue-router": "4.2.5"
   },
   "dependencies": {
     "@capacitor/android": "5.6.0",
@@ -26,8 +27,10 @@
     "@capacitor/ios": "5.6.0",
     "@capacitor/keyboard": "5.0.7",
     "@capacitor/status-bar": "5.0.6",
-    "@ionic/core": "^7.6.2",
-    "@ionic/vue": "^7.6.2"
+    "@ionic/core": "7.6.4",
+    "@ionic/vue": "7.6.4"
   },
-  "version": "0.1.0"
+  "engines": {
+    "node": "^20.9.0"
+  }
 }
